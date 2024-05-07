@@ -1,0 +1,26 @@
+<div class="piano shadow">
+  <header>
+    <h2>MyPiano</h2>
+
+    <div class="volume-slider">
+      <label for="volume-slider">Volume</label>
+      <input type="range" min="0" max="100" value="100" class="slider" id="volume-slider">
+    </div>
+
+    <div class="keys-checkbox">
+      <label for="keys-checkbox">Show Notes</label>
+      <div class="checkbox-container">
+        <input type="checkbox" class="checkbox" id="keys-checkbox">
+        <label class="switch" for="keys-checkbox">
+          <span class="indicator"></span>
+        </label>
+      </div>
+
+    </div>
+
+  </header>
+
+  <app-piano-keys class="piano-keys"></app-piano-keys>
+</div>
+
+

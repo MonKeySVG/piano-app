@@ -1,0 +1,6 @@
+ul {
+  display: flex;
+  padding: 0;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
